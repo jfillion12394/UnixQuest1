@@ -1,0 +1,60 @@
+joel@joel-VirtualBox:/$ ls -l bin
+lrwxrwxrwx 1 root root 7 mars   1 16:16 bin -> usr/bin
+joel@joel-VirtualBox:/$ ls -l bin
+lrwxrwxrwx 1 root root 7 mars   1 16:16 bin -> usr/bin
+joel@joel-VirtualBox:/$ pwd
+/
+joel@joel-VirtualBox:/$ cd ..
+joel@joel-VirtualBox:/$ pwd
+/
+joel@joel-VirtualBox:/$ cd ..
+joel@joel-VirtualBox:/$ pwd
+/
+joel@joel-VirtualBox:/$ ls
+bin    dev   lib    libx32      mnt   root  snap      sys  var
+boot   etc   lib32  lost+found  opt   run   srv       tmp
+cdrom  home  lib64  media       proc  sbin  swapfile  usr
+joel@joel-VirtualBox:/$ ls -l bin
+lrwxrwxrwx 1 root root 7 mars   1 16:16 bin -> usr/bin
+joel@joel-VirtualBox:/$ ls
+bin    dev   lib    libx32      mnt   root  snap      sys  var
+boot   etc   lib32  lost+found  opt   run   srv       tmp
+cdrom  home  lib64  media       proc  sbin  swapfile  usr
+joel@joel-VirtualBox:/$ cd bin
+joel@joel-VirtualBox:/bin$ pwd
+/bin
+joel@joel-VirtualBox:/bin$ ls
+'['                                   mesg
+ aa-enabled                           mformat
+ aa-exec                              migrate-pubring-from-classic-gpg
+ aconnect                             mimeopen
+ acpi_listen                          mimetype
+ add-apt-repository                   min12xxw
+ addpart                              minfo
+ addr2line                            mkdir
+ alsabat                              mkfifo
+
+joel@joel-VirtualBox:/bin$ ls -l
+total 176908
+-rwxr-xr-x 1 root root       59736 sept.  5  2019 '['
+-rwxr-xr-x 1 root root       31248 mai   19  2020  aa-enabled
+-rwxr-xr-x 1 root root       35344 mai   19  2020  aa-exec
+-rwxr-xr-x 1 root root       22912 oct.  16 17:50  aconnect
+-rwxr-xr-x 1 root root       19016 nov.  28  2019  acpi_listen
+-rwxr-xr-x 1 root root        7415 nov.   3 15:08  add-apt-repository
+-rwxr-xr-x 1 root root       30952 juil. 21  2020  addpart
+lrwxrwxrwx 1 root root          26 janv. 21 16:23  addr2line -> x86_64-linux-gnu-addr2line
+-rwxr-xr-x 1 root root       47552 oct.  16 17:50  alsabat
+-rwxr-xr-x 1 root root       85296 oct.  16 17:50  alsaloop
+-rwxr-xr-x 1 root root       72432 oct.  16 17:50  alsamixer
+-rwxr-xr-x 1 root root       14720 oct.  16 17:50  alsatplg
+-rwxr-xr-x 1 root root       31528 oct.  16 17:50  alsaucm
+-rwxr-xr-x 1 root root       31112 oct.  16 17:50  amidi
+-rwxr-xr-x 1 root root       63952 oct.  16 17:50  amixer
+-rwxr-xr-x 1 root root        2668 mars  22  2020  amuFormat.sh
+-rwxr-xr-x 1 root root         274 oct.   2  2017  apg
+-rwxr-xr-x 1 root root       26696 oct.   2  2017  apgbfm
+-rwxr-xr-x 1 root root       84400 oct.  16 17:50  aplay
+-rwxr-xr-x 1 root root       27016 oct.  16 17:50  aplaymi
+
+
